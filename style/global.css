@@ -1,0 +1,26 @@
+/* This file sets global "theme" rules for the entire page. Specific components have their own style files for clarity. */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+	--theme-bg: #1b1b1b;
+	--theme-regular-bg: #3b3b3b;
+	--theme-regular-hover: #5b5b5b;
+	--theme-accent-bg: #0f98a5;
+	--theme-accent-hover: #00c3d6;
+	--theme-fg: #fff;
+}
+
+* {
+	font-family: 'Lexend Deca', sans-serif;
+	color: var(--theme-fg);
+}
+
+body {
+	background-color: var(--theme-bg);
+	margin: 0;
+}
+
+article {
+	padding: 10px;
+	box-sizing: border-box;
+}

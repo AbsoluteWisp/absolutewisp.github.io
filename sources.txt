@@ -1,0 +1,4 @@
+until the website gets a proper spot for used resources, this keeps track of all that
+
+- Font: Lexend Deca, SIL OFL, https://fonts.google.com/specimen/Lexend+Deca
+- Favicon uses Comic Sans MS

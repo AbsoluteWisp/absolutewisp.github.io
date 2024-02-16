@@ -1,0 +1,11 @@
+nav {
+	background-color: var(--theme-fg);
+	color: var(--theme-regular-bg);
+
+	width: 100vw;
+	height: max(10vh, 4em);
+
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
