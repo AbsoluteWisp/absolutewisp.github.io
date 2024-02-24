@@ -1,0 +1,51 @@
+.regular-icon-button, .primary-icon-button {
+	display: inline-flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	
+	text-decoration: none;
+
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+	border-radius: 5px;
+	box-sizing: border-box;
+
+	padding-left: 8px;
+	padding-right: 8px;
+
+	user-select: none;
+	-webkit-user-select: none;
+
+	cursor: pointer;
+
+	transition: background-color 200ms;
+}
+
+.regular-icon-button {
+	background-color: var(--theme-button-standard-idle);
+}
+
+.regular-icon-button:hover {
+	background-color: var(--theme-button-standard-hover);
+}
+
+.regular-icon-button:active {
+	background-color: var(--theme-button-standard-idle);
+}
+
+.primary-icon-button {
+	background-color: var(--theme-button-accent-idle);
+	font-weight: bold;
+}
+
+.primary-icon-button:hover {
+	background-color: var(--theme-button-accent-hover);
+}
+
+.primary-icon-button:active {
+	background-color: var(--theme-button-accent-idle);
+}

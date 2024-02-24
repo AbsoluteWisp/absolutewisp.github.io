@@ -3,11 +3,17 @@
 
 :root {
 	--theme-bg: #1b1b1b;
-	--theme-regular-bg: #3b3b3b;
-	--theme-regular-hover: #5b5b5b;
-	--theme-accent-bg: #0f98a5;
-	--theme-accent-hover: #00c3d6;
 	--theme-fg: #fff;
+
+	--theme-button-standard-idle: #3b3b3b;
+	--theme-button-standard-hover: #5b5b5b;
+	--theme-button-accent-idle: #0f98a5;
+	--theme-button-accent-hover: #00c3d6;
+
+	--theme-nav-bg: #3b3b3b;
+
+	--theme-link-idle: #0f98a5;
+	--theme-link-hover: #00c3d6;
 }
 
 * {
@@ -23,4 +29,30 @@ body {
 article {
 	padding: 10px;
 	box-sizing: border-box;
+}
+
+/* Header sizes */
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.67em;
 }
