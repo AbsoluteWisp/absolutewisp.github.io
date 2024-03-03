@@ -1,4 +1,8 @@
-.link {
+a {
+	text-decoration: none;
+}
+
+a.link {
 	text-decoration: none;
 	font-style: italic;
 
@@ -9,4 +13,8 @@
 
 .link:hover {
 	color: var(--theme-link-hover);
+}
+
+a.monospace-link {
+	text-decoration: underline;
 }

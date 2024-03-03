@@ -1,5 +1,0 @@
-until the website gets a proper spot for used resources, this keeps track of all that
-
-- Font: Lexend Deca, SIL OFL, https://fonts.google.com/specimen/Lexend+Deca
-- Absolute and Ephemeral icons are made by me, including any variants.
-- GitHub Invertocat logo used to link to profile, in accordance with https://github.com/logos' guidelines

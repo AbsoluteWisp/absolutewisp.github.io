@@ -43,7 +43,7 @@
      id="layer1">
     <path
        id="path1-1"
-       style="display:inline;fill:none;stroke:#ffffff;stroke-width:5.13289;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       style="display:inline;fill:none;stroke:#000;stroke-width:5.13289;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
        inkscape:transform-center-y="-7.9217914"
        d="M 35.86173,23.257705 C 21.65149,25.530054 15.679439,33.050668 2.56555,47.096668 L 25.599547,4.1031061 48.633555,47.096608"
        sodipodi:nodetypes="cccc"

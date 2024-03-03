@@ -45,8 +45,23 @@
 			</div>
 		</nav>
 		<article>
-			<h1>Index</h1>
-			<p>Riveting content, is it not?</p>
+			<h1>(h1) Component styling test page</h1>
+			<p>(p) Some text in a paragraph.</p>
+			<h2>(h2) Button links; regular and primary</h2>
+			<div style="margin-top: 5px; margin-bottom: 5px; display: flex; flex-wrap: wrap; flex-direction: row; gap: 10px;">
+				<a class="regular-button">(.regular-button) Regular</a>
+				<a class="primary-button">(.primary-button) Primary</a>
+			</div>
+			<h2>(h2) Icon button links; regular and primary; text and Material Symbols</h2>
+			<div style="margin-top: 5px; margin-bottom: 5px; display: flex; flex-wrap: wrap; flex-direction: row; gap: 10px;">
+				<!-- Text content inside icon buttons -->
+				<a class="regular-icon-button"><span>R</span></a>
+				<a class="primary-icon-button"><span>P</span></a>
+				<!-- Material Symbols inside icon buttons -->
+				<a class="regular-icon-button"><span class="material-symbols-rounded">android</span></a>
+				<a class="primary-icon-button"><span class="material-symbols-rounded">android</span></a>
+			</div>
+			<a class="link" href="https://example.com" target="_blank">(.link) Hyperlink</a>
 		</article>
 		<footer>
 			<div class="footer-wrapper">
@@ -81,3 +96,4 @@
 		</footer>
 	</body>
 </html>
+

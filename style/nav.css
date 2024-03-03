@@ -1,7 +1,7 @@
 nav {
-	background-color: var(--theme-nav-bg);
+	background-color: var(--theme-bg);
 
-	width: 100vw;
+	width: 100%;
 	height: 4em;
 	display: flex;
 	flex-direction: row;
@@ -27,7 +27,7 @@ nav > * {
 	gap: 20px;
 }
 
-.navleft {
+.navleft a{
 	justify-content: flex-start;
 }
 
@@ -42,4 +42,17 @@ nav > * {
 .navimage {
 	height: 100%;
 	aspect-ratio: 1;
+}
+
+.navlink, .ephemeral-navlink {
+	text-decoration: none;
+}
+
+.ephemeral-navlink {
+	background: linear-gradient(to right, var(--theme-ephemeral-a), var(--theme-ephemeral-b));
+	color: transparent;
+
+	background-clip: text;
+	-webkit-background-clip: text;
+
 }
