@@ -30,11 +30,12 @@
 }
 
 body {
-	background-color: var(--theme-bg);
+	background-color: #fff;
 	margin: 0;
 }
 
 article {
+	background-color: var(--theme-bg);
 	padding: 10px;
 	box-sizing: border-box;
 	min-height: calc(100vh - 4em); /* Full page height - navbar height */
