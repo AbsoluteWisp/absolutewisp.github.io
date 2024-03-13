@@ -4,6 +4,10 @@ footer {
 	width: 100%;
 }
 
+footer * {
+	text-wrap: nowrap;
+}
+
 .footer-wrapper {
 	display: flex;
 	height: 100%;

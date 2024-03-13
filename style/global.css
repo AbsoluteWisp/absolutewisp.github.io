@@ -3,21 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 :root {
-	--theme-bg: #1b1b1b;
+	--theme-bg: #000;
 	--theme-fg: #fff;
 
 	--theme-button-standard-idle: #2b2b2b;
 	--theme-button-standard-hover: #4b4b4b;
-	--theme-button-accent-idle: #0f98a5;
-	--theme-button-accent-hover: #00c3d6;
+	--theme-button-accent-idle: #a50f5c;
+	--theme-button-accent-hover: #d60084;
+	--theme-button-translucent-idle: #ffffff10;
+	--theme-button-translucent-hover: #ffffff80;
 
 	--theme-nav-bg: #fff;
 
-	--theme-link-idle: #0f98a5;
-	--theme-link-hover: #00c3d6;
+	--theme-link-idle: #a20fa5;
+	--theme-link-hover: #e756d1;
 
 	--theme-ephemeral-a: #6500cc;
 	--theme-ephemeral-b: #00c8cf;
+}
+
+/* Changes the theme for areas with the inverted colour palette (nav and footer) */
+nav, footer {
+	--theme-bg: #fff;
+	--theme-fg: #000;
+
+	--theme-button-standard-idle: #fff;
+	--theme-button-standard-hover: #efefef;
 }
 
 * {
@@ -29,16 +40,22 @@
 	font-family: 'Fira Code', monospace;
 }
 
+.unselectable {
+	-webkit-user-select: none;
+	user-select: none;
+
+	-webkit-user-drag: none;
+}
+
 body {
-	background-color: #fff;
+	background-color: var(--theme-bg);
 	margin: 0;
 }
 
-article {
-	background-color: var(--theme-bg);
+section.main {
 	padding: 10px;
 	box-sizing: border-box;
-	min-height: calc(100vh - 4em); /* Full page height - navbar height */
+	min-height: calc(100vh - 4em); /* Full screen height - navbar height */
 }
 
 /* Material Symbol settings */
@@ -50,19 +67,7 @@ article {
   'opsz' 24
 }
 
-/* Changes the theme for areas with the inverted colour palette (nav and footer) */
-nav, footer {
-	--theme-bg: #fff;
-	--theme-fg: #000;
-
-	--theme-button-standard-idle: #efefef;
-	--theme-button-standard-hover: #bfbfbf;
-	--theme-button-accent-idle: #0f98a5;
-	--theme-button-accent-hover: #00c3d6;
-}
-
 /* Header sizes */
-
 h1 {
 	font-size: 2em;
 }

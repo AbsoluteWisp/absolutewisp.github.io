@@ -1,0 +1,47 @@
+body {
+	position: relative;
+}
+
+#blobcontainer {
+	margin: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	height: 100%;
+
+	z-index: -5;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+}
+
+#cursorblob {
+	background: linear-gradient(to right, #064f51, #51cec2);
+	filter: blur(max(5vmax, 60px));
+	width: max(25vmax, 240px);
+	aspect-ratio: 1;
+	position: absolute;
+	pointer-events: none;
+
+	left: 50%;
+	top: 45%;
+	translate: -50% -50%;
+	border-radius: 50%;
+
+	animation: rotate 10s infinite, recolor 40s linear infinite;
+}
+
+@keyframes rotate {
+	from {
+		rotate: 0deg;
+	}
+
+	50% {
+		scale: 1.3 1.6;
+	}
+
+	to {
+		rotate: 360deg;
+	}
+}

@@ -1,4 +1,4 @@
-.regular-icon-button, .primary-icon-button {
+.regular-icon-button, .primary-icon-button, .translucent-icon-button {
 	display: inline-flex;
 	flex-direction: column;
 
@@ -8,14 +8,10 @@
 	
 	text-decoration: none;
 
-	height: 40px;
 	width: 40px;
+	aspect-ratio: 1;
 	overflow: hidden;
 	border-radius: 5px;
-	box-sizing: border-box;
-
-	padding-left: 8px;
-	padding-right: 8px;
 
 	user-select: none;
 	-webkit-user-select: none;
@@ -23,6 +19,11 @@
 	cursor: pointer;
 
 	transition: background-color 200ms;
+}
+
+.regular-icon-button > *, .primary-icon-button > *, .translucent-icon-button > * {
+	box-sizing: border-box;
+	padding: 8px;
 }
 
 .regular-icon-button {
@@ -48,4 +49,16 @@
 
 .primary-icon-button:active {
 	background-color: var(--theme-button-accent-idle);
+}
+
+.translucent-icon-button {
+	background-color: var(--theme-button-translucent-idle);
+}
+
+.translucent-icon-button:hover {
+	background-color: var(--theme-button-translucent-hover);
+}
+
+.translucent-icon-button:active {
+	background-color: var(--theme-button-translucent-idle);
 }

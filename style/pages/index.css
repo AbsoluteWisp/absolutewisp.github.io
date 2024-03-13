@@ -1,0 +1,28 @@
+.home-center {
+	height: calc(100vh - 4em);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-logo {
+	height: max(40vmin, 128px);
+	aspect-ratio: 1;
+}
+
+.home-socials {
+	margin-top: 1rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.home-scrollgizmo {
+	margin-top: 1rem;
+	font-size: 2rem;
+}
